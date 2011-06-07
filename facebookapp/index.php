@@ -1,7 +1,7 @@
 <?php
 //
 // Name: HollgamTest
-// githun
+// github
 
 // error_reporting(0); // disable warnings
 
