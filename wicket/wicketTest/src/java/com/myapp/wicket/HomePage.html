@@ -1,14 +1,7 @@
 <!DOCTYPE html> 
-<html xmlns:wicket="http://wicket.apache.org"> 
-    <head> 
-        <meta charset="UTF-8"> 
-    <wicket:head> 
-        <title>Wicket Example</title> 
-    </wicket:head> 
-</head> 
-<body> 
-    <wicket:extend> 
-       <h1 wicket:id="message">This gets replaced</h1>
-    </wicket:extend> 
-</body> 
+<html> <body>
+        <h1>Search Customers</h1>
+        <div wicket:id="feedback"></div>
+        <form wicket:id="form"> <select wicket:id="type"></select> <input wicket:id="keywords" type="text" size="20"/> <input type="submit" value="Search"/>
+        </form> </body>
 </html>
