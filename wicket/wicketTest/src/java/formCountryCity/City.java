@@ -6,11 +6,10 @@ package formCountryCity;
  */
 public class City {
 
-    public City(String cityName, Country county) {
+    public City(String cityName, String countyCode) {
         this.cityName = cityName;
-        this.county = county;
+        this.countryCode = countryCode;
     }
-
     protected String cityName;
 
     /**
@@ -30,26 +29,23 @@ public class City {
     public void setCityName(String cityName) {
         this.cityName = cityName;
     }
-
-    protected Country county;
+    protected String countryCode;
 
     /**
-     * Get the value of county
+     * Get the value of countryCode
      *
-     * @return the value of county
+     * @return the value of countryCode
      */
-    public Country getCounty() {
-        return county;
+    public String getCountryCode() {
+        return countryCode;
     }
 
     /**
-     * Set the value of county
+     * Set the value of countryCode
      *
-     * @param county new value of county
+     * @param countryCode new value of countryCode
      */
-    public void setCounty(Country county) {
-        this.county = county;
+    public void setCountryCode(String countryCode) {
+        this.countryCode = countryCode;
     }
-
-    
 }
